@@ -1,0 +1,58 @@
+
+* {
+    font-family: poppinsregular;
+}
+
+body {
+    background-image: url(/components/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    /* padding: 15px; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /*position: static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; */
+}
+
+form {
+    padding: 90px; /* Define o tamanho do quadrado */
+    /* margin: 170px; */
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(49, 49, 49);
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    border-style: solid;
+    flex-direction: column;
+}
+
+form [type="submit"]:hover {
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+#botao-logar {
+    border-radius: 60px;
+}
+
+input {
+    align-self: center;
+    border-radius: 16px;
+    padding: 18px;
+    width: 130%;
+    margin: 5px;
+}
+
+#title {
+    margin-bottom: 65px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
