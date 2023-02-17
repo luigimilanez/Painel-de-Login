@@ -2,11 +2,12 @@
     font-family: poppinsregular;
 }
 
-body {
-    background-image: url(/components/images/background.png);
-    background-repeat: repeat;
+html {
+    background-image: linear-gradient(to bottom, #DFC0BD, #B9B8B4, #A2B2B2);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
 }
 
 main {
