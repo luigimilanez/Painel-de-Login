@@ -46,6 +46,10 @@ input {
     margin: 5px;
 }
 
+.inputtexto {
+    outline: none;
+}
+
 #title {
     margin-bottom: 65px;
     text-align: center;
